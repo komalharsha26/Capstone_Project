@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cyber threat predictive analytics for improving cyber supply chain security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FreeHTML5.co" />
+
+    <!--
+  //////////////////////////////////////////////////////
+
+  FREE HTML5 TEMPLATE
+  DESIGNED & DEVELOPED by FreeHTML5.co
+
+  Website: 		http://freehtml5.co/
+  Email: 			info@freehtml5.co
+  Twitter: 		http://twitter.com/fh5co
+  Facebook: 		https://www.facebook.com/fh5co
+
+  //////////////////////////////////////////////////////
+  -->
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="static/css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="static/css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="static/css/flexslider.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="fh5co-page">
+    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+    <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+        <h1 id="fh5co-logo"><a href="index.html">CYBER THREAT</a></h1>
+        <nav id="fh5co-main-menu" role="navigation">
+            <ul>
+                <li class="fh5co-active"><a href="/loginhome">Home</a></li>
+                <li><a href="/upload">Upload Data</a></li>
+                <li><a href="/viewdata">View Data</a></li>
+                <li><a href="/preprocessing">Preprocessing</a></li>
+                <li><a href="/model">Model</a></li>
+                <li><a href="/prediction">Prediction</a></li>
+
+                <li><a href="/">Logout</a></li>
+            </ul>
+        </nav>
+
+
+
+    </aside>
+
+    <div id="fh5co-main">
+        <aside id="fh5co-hero" class="js-fullheight">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li style="background-image: url(static/images/c16.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+                                    <div class="slider-text-inner">
+                                        <div class="imgcontainer">
+                                            <h1><b>Prediction</b></h1>
+
+                                            <center>
+                                                <h1>{{msg|safe}}</h1><br><br><br>
+                                            </center>
+
+
+                                               <form action="{{url_for('prediction')}}" method="post" >
+                                                <input type="number" name="IsBeta" placeholder="IsBeta" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="RtpStateBitfield" placeholder="RtpStateBitfield" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="IsSxsPassiveMode" placeholder="IsSxsPassiveMode" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="DefaultBrowsersIdentifier" placeholder="DefaultBrowsersIdentifier" style="margin-top: 20px;height: 40px;color: black;">
+
+
+                                                <input type="number" name="AVProductStatesIdentifier" placeholder="AVProductStatesIdentifier" style="margin-top: 20px;height: 40px;color: black;"><br><br>
+
+                                                <input type="number" name="AVProductsInstalled" placeholder="AVProductsInstalled" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="HasTpm" placeholder="HasTpm" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="CountryIdentifier" placeholder="CountryIdentifier" style="margin-top: 20px;height: 40px;color: black;">
+
+
+                                                <input type="number" name="CityIdentifier" placeholder="CityIdentifier" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="OrganizationIdentifier" placeholder="OrganizationIdentifier" style="margin-top: 20px;height: 40px;color: black;"><br><br>
+
+                                                <input type="number" name="GeoNameIdentifier" placeholder="GeoNameIdentifier" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="LocaleEnglishNameIdentifier" placeholder="LocaleEnglishNameIdentifier" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                <input type="number" name="OsBuild" placeholder="OsBuild" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="OsSuite" placeholder="OsSuite" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="IsProtected" placeholder="IsProtected" style="margin-top: 20px;height: 40px;color: black;"><br><br>
+
+                                                   <input type="number" name="SMode" placeholder="SMode" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Firewall" placeholder="Firewall" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Census_InternalPrimaryDiagonalDisplaySizeInInches" placeholder="Census_InternalPrimaryDiagonalDisplaySizeInInches" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Census_InternalPrimaryDisplayResolutionHorizontal" placeholder="Census_InternalPrimaryDisplayResolutionHorizontal" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Census_InternalPrimaryDisplayResolutionVertical" placeholder="Census_InternalPrimaryDisplayResolutionVertical" style="margin-top: 20px;height: 40px;color: black;"> <br><br>
+
+                                                   <input type="number" name="Census_OSBuildNumber" placeholder="Census_OSBuildNumber" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Census_OSBuildRevision" placeholder="Census_OSBuildRevision" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Census_OSInstallLanguageIdentifier" placeholder="Census_OSInstallLanguageIdentifier" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Wdft_IsGamer" placeholder="Wdft_IsGamer" style="margin-top: 20px;height: 40px;color: black;">
+
+                                                   <input type="number" name="Wdft_RegionIdentifier" placeholder="Wdft_RegionIdentifier" style="margin-top: 20px;height: 40px;color: black;"><br><br>
+
+
+                                                &nbsp<input type="submit" value="Submit" class="btn btn-primary"></i></input>
+                                            </form>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<!-- jQuery -->
+<script src="static/js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="static/js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="static/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="static/js/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="static/js/jquery.flexslider-min.js"></script>
+
+
+<!-- MAIN JS -->
+<script src="static/js/main.js"></script>
+
+</body>
+</html>
+
